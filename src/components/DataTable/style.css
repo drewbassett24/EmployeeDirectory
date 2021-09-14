@@ -1,0 +1,20 @@
+.datatable #Image {
+    cursor: default !important;
+  }
+  
+  .datatable #dob {
+    text-transform: uppercase !important;
+  }
+  
+  .datatable .col {
+    cursor: pointer;
+    text-transform: capitalize;
+  }
+  
+  .datatable .col .carrotascend::after,
+  .datatable .col .carrotdescend::after {
+    content: "";
+    font-size: 80%;
+  }
+  
+ 
